@@ -456,10 +456,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcrypto-v33
 
-# VNDK-SP
-PRODUCT_PACKAGES += \
-    vndk_package
-
 # Wifi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
