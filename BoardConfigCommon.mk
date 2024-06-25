@@ -182,6 +182,8 @@ TARGET_USERIMAGES_USE_EXT4           := true
 
 TARGET_COPY_OUT_VENDOR := vendor
 
+AB_OTA_UPDATER := false
+
 TARGET_USES_MKE2FS := true
 
 # Properties
