@@ -332,15 +332,6 @@ vendor/lib64/libcvp_stub.so
 vendor/lib64/libcvpcpuRev_skel.so
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so
 
-# Device Health
-vendor/bin/hw/android.hardware.health@2.1-service-samsung
-vendor/etc/init/android.hardware.health@2.1-service-samsung.rc
-vendor/etc/vintf/manifest/android.hardware.health@2.1-samsung.xml
-vendor/lib/hw/android.hardware.health@2.0-impl-2.1-samsung.so
-vendor/lib/vendor.samsung.hardware.health@2.0.so
-vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-samsung.so|53a2a08c9a9f3eb430c84b17d4dd236147f57288
-vendor/lib64/vendor.samsung.hardware.health@2.0.so
-
 # Firmware
 vendor/firmware/Data.msc
 vendor/firmware/dax_param.bin
