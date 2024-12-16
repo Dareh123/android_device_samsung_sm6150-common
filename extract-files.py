@@ -50,6 +50,8 @@ blob_fixups: blob_fixups_user_type = {
         .sig_replace('60 0E 40 F9 82 0C 80 52 24 00 80 52 E1 03 15 AA E3 03 14 AA', '60 0E 40 F9 82 0C 80 52 24 00 80 52 E1 03 15 AA 03 00 80 D2'),
     ('vendor/lib64/hw/gatekeeper.mdfpp.so', 'vendor/lib64/libkeymaster_helper.so', 'vendor/lib64/libskeymaster4device.so'): blob_fixup()
         .replace_needed('libcrypto.so', 'libcrypto-v33.so'),
+    ('vendor/etc/seccomp_policy/atfwd@2.0.policy'): blob_fixup()
+        .add_line_if_missing('gettid: 1'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
